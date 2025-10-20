@@ -3,61 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - CV</title>
+  <title>Your Name</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Your Name</h1>
-      <p>Web Developer | Data Analyst | Designer</p>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a> | 
-         GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a>
-      </p>
-    </header>
-
-    <section>
-      <h2>About Me</h2>
-      <p>Brief introduction about who you are, what you do, and what you're passionate about.</p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <div class="item">
-        <h3>Job Title - Company Name</h3>
-        <p class="date">Jan 2021 – Present</p>
-        <p>Description of your responsibilities and achievements in the role.</p>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <h1>Your Name</h1>
       </div>
-      <div class="item">
-        <h3>Previous Job - Company Name</h3>
-        <p class="date">2019 – 2021</p>
-        <p>Another role with a description of what you worked on.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <div class="item">
-        <h3>Degree - University Name</h3>
-        <p class="date">2015 – 2019</p>
-        <p>Summary of coursework, honors, or thesis.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul class="skills">
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>Git & GitHub</li>
+      <ul class="sidebar-menu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#links">Links</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <footer>
-      <p>© 2025 Your Name. All rights reserved.</p>
-    </footer>
+    <main class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Write a short intro: who you are, what you do, your interests, etc.</p>
+      </section>
+
+      <section id="cv">
+        <h2>CV</h2>
+
+        <h3>Experience</h3>
+        <div class="job">
+          <h4>Job Title — Company</h4>
+          <p class="date">Jan 2022 – Present</p>
+          <p>Describe your role, projects, achievements...</p>
+        </div>
+        <div class="job">
+          <h4>Other Job — Company</h4>
+          <p class="date">2019 – 2022</p>
+          <p>More details…</p>
+        </div>
+
+        <h3>Education</h3>
+        <div class="edu">
+          <h4>Degree — University</h4>
+          <p class="date">2015 – 2019</p>
+          <p>Details about your studies, honors, thesis, etc.</p>
+        </div>
+
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>HTML / CSS</li>
+          <li>JavaScript / TypeScript</li>
+          <li>Python</li>
+          <li>Data Analysis</li>
+          <li>Git / GitHub</li>
+        </ul>
+      </section>
+
+      <section id="links">
+        <h2>Links & Contact</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p><a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+      </section>
+    </main>
   </div>
 </body>
 </html>
