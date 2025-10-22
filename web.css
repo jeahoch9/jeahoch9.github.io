@@ -83,6 +83,10 @@ a:hover {
   color: #444;
 }
 
+.cv{
+  color:#7FFF00;
+}
+
 .job, .edu {
   margin-bottom: 20px;
 }
