@@ -44,6 +44,7 @@ nav img {
 .nav a {
 	position: sticky;
 	top:0;
+	z-index:9000;
 }
 
 .navbar-menu a {
