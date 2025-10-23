@@ -158,7 +158,7 @@ nav ul li a:hover::after {
 footer{
 	z-index: 1;
 	position: relative;
-	background-color: hsl(216, 53%, 9%);
+	background-color: #9fd3c7;
 	margin-top: -250px;
 	
 	height: 500px;
