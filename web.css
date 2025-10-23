@@ -30,7 +30,7 @@ a:hover {
  /* Add a black background color to the top navigation */
 .topnav {
   background-color: #9fd3c7;
-  overflow: hidden;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -38,7 +38,7 @@ a:hover {
   float: right;
   color: #ececec;
   text-align: center;
-  padding: 25px 30px;
+  padding: 250px 30px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -51,7 +51,7 @@ a:hover {
 
 /* Add a color to the active/current link */
 .navbar-menu a.active {
-  background-color: #04AA6D;
+  background-color: #9fd3c7;
   color: white;
 }
 
