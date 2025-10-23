@@ -28,7 +28,7 @@ a:hover {
 
 /* Navigation bar */
  /* Add a black background color to the top navigation */
-.topnav {
+.nav {
   background-color: #9fd3c7;
   overflow: hidden;
 }
