@@ -60,6 +60,7 @@ nav img {
   position: sticky;
   top: 0;
   z-index: 1000;
+  width: 100%;
   color: #ececec;
   text-align: center;
   padding: 25px 30px;
