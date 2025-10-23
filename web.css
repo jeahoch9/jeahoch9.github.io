@@ -41,6 +41,11 @@ nav img {
 }
 
 /* Style the links inside the navigation bar */
+.nav a {
+	position: sticky;
+	top:0;
+}
+
 .navbar-menu a {
   float: right;
   position: sticky;
