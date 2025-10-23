@@ -27,88 +27,63 @@ a:hover {
 }
 
 /* Navigation bar */
- /* Add a black background color to the top navigation */
+/* Navigation bar (sticky top) */
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
   background-color: #9fd3c7;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo left, links right */
+  padding: 0 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }
 
-
-/* Change the size and location of the logo */
-.nav img {
+/* Logo styling (left) */
+.navbar-header img {
   width: 80px;
   height: auto;
   cursor: pointer;
 }
 
-/* Style the links inside the navigation bar */
-.nav a {
-	position: sticky;
-	top:0;
-	z-index:9000;
-}
-
-nav {
+/* Right-side menu container */
+.navbar-menu {
   display: flex;
-  padding: 2.5% 5%;
+  flex-direction: row; /* horizontal layout */
+  align-items: center;
+  gap: 25px;
 }
 
-.navbar-header a {
-	float: left;
-	position: sticky;
-	top:0;
-	z-index: 1000;
-	padding: 200px 20px;
-}
-
+/* Navigation links */
 .navbar-menu a {
-  float: right;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  color: #ececec;
-  text-align: center;
-  padding: 25px 30px;
+  color: #142d4c;
+  font-size: 18px;
   text-decoration: none;
-  font-size: 20px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
 }
 
-.nav a {
-  display: inline-block;
-  padding: 6px 15px;
-}
-
-/* Change the color of links on hover */
 .navbar-menu a:hover {
   background-color: #ddd;
   color: black;
+  border-radius: 5px;
 }
 
-/*Prevent navigation bar from hiding*/
-.nav {
-	padding-top:80px;
-}
-
-.navbar-menu a:after {
-  content: "";
-  width: 0;
-  height: 2px;
-  display: block;
-  transition: 0.6s;
-  background-color:#9fd3c7;
-}
-nav ul li a:hover::after {
-  width: 100%;
-}
-
-/* Add a color to the active/current link */
+/* Active link */
 .navbar-menu a.active {
-  background-color: #9fd3c7;
+  background-color: #385170;
   color: white;
+  border-radius: 5px;
 }
 
+/* Push content below navbar */
+body {
+  padding-top: 80px;
+}
 
 
 /* Main content */
