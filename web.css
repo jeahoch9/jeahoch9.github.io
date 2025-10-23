@@ -47,6 +47,14 @@ nav img {
 	z-index:9000;
 }
 
+.navbar-header a {
+	float: left;
+	position: sticky;
+	top:0;
+	z-index: 1000;
+	padding: 200px 20px;
+}
+
 .navbar-menu a {
   float: right;
   position: sticky;
