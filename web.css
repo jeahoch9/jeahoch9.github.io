@@ -156,6 +156,12 @@ body {
   font-size: 0.95rem;
 }
 
+.links {
+	border: 2px;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
 /*Footer design*/
 footer{
 	z-index: 1;
