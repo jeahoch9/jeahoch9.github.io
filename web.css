@@ -58,6 +58,7 @@ nav img {
 .navbar-menu a {
   float: right;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   z-index: 1000;
   width: 100%;
