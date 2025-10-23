@@ -28,7 +28,7 @@ a:hover {
 
 /* Navigation bar */
 /* Navigation bar (sticky top) */
-.nav {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
