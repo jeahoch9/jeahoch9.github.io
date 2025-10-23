@@ -35,9 +35,9 @@ a:hover {
 
 
 /* Change the size and location of the logo */
-nav img {
+.nav img {
   width: 80px;
-  height: 36px;
+  height: auto;
   cursor: pointer;
 }
 
@@ -79,6 +79,11 @@ nav img {
 .navbar-menu a:hover {
   background-color: #ddd;
   color: black;
+}
+
+/*Prevent navigation bar from hiding*/
+.nav {
+	padding-top:80px;
 }
 
 .navbar-menu a:after {
