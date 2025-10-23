@@ -30,7 +30,7 @@ a:hover {
   .navbar {
             display: flex;
             position: sticky;
-            align-items: center;
+            align-items: center
             justify-content: space-between;
             top: 0px;
             background: #fffff;
@@ -43,6 +43,7 @@ a:hover {
         .navbar-menu {
             display: flex;
             list-style: none;
+            text-align: right;
         }
 
         .navbar-menu li {
