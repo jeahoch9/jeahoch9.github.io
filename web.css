@@ -44,7 +44,7 @@ a:hover {
 	display: flex;
 	align-items: right;
 	justify-content:space-between;
-	padding: 0px 30px;
+	padding: 0 30px;
 	z-index:9999;
 }
 /* Change the size and location of the logo */
