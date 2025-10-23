@@ -154,6 +154,87 @@ nav ul li a:hover::after {
   font-size: 0.95rem;
 }
 
+/*Footer design*/
+footer{
+	z-index: 1;
+	position: relative;
+	background-color: hsl(216, 53%, 9%);
+	margin-top: -250px;
+	
+	height: 500px;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding: 0 0 70px 4%;
+}
+footer > a{
+	position: relative;
+	margin-top: auto;
+	margin-bottom: 50px;
+}
+footer > .navbar-grid{
+	display: grid;
+	columns: 5;
+	width: 96%;
+	height: auto;
+
+	grid-template-columns: 32% 20% repeat(2, 15%) 10%;
+	column-gap: 2%;
+}
+footer > .navbar-grid > .contacts > div{
+	display: flex;
+	overflow-wrap: break-word;
+	flex-direction: row;
+	align-items: flex-start;
+}
+footer > .navbar-grid > .contacts > div > p{
+	width: 90%;
+	float: left;
+}
+footer > .navbar-grid > .contacts > div > img{
+	width: auto;
+	height: 1rem;
+	margin-top: 20px;
+	margin-right: 15px;
+	float: left;
+}
+footer > .navbar-grid > nav{
+	display: flex;
+	flex-direction: column;
+}
+footer > .navbar-grid > nav > a > p{
+	margin: 5px 0;
+}
+footer > .navbar-grid > .links{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+}
+footer > .navbar-grid > .links a{
+	margin-right: 10px;
+}
+footer > .navbar-grid > .links ion-icon{
+	height: 2rem;
+	width: 2rem;
+}
+@media (max-width: 1000px){
+	footer > .navbar-grid{
+		grid-template-columns: 20% 26% repeat(2, 10%) 18%;
+		column-gap: 4%;
+	}
+	footer > .navbar-grid > .contacts > div{
+		flex-direction: column;
+	}
+	footer{
+		padding-bottom: 20px;
+		font-size: 0.9em;
+	}
+	footer > img{
+		margin-bottom: calc(15px + 1%);
+	}
+}
 /* Responsive / Mobile */
 @media (max-width: 768px) {
   .layout {
