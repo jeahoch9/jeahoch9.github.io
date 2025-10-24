@@ -26,6 +26,12 @@ a:hover {
   min-height: 100vh;
 }
 
+body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
 /* Navigation bar */
 /* Navigation bar (sticky top) */
 .navbar {
