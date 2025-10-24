@@ -83,6 +83,7 @@ a:hover {
 /* Push content below navbar */
 body {
   padding-top: 80px;
+  margin-bottom: 60px;
 }
 
 
@@ -161,6 +162,7 @@ body {
 	background-color: #f0f0f0;
 	padding: 20px;
 	margin-bottom:60px;
+	overflow:visible;
 }
 
 /*Footer design*/
