@@ -172,7 +172,7 @@ footer{
 	background-color: #9fd3c7;
 	margin-top: -250px;
 	
-	height: 500px;
+	height: auto;
 	width: auto;
 	display: flex;
 	flex-direction: column;
