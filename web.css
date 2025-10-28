@@ -239,7 +239,7 @@ footer > .navbar-grid > .links ion-icon{
 		flex-direction: column;
 	}
 	footer{
-		padding-bottom: 20px;
+		padding-bottom: 0px;
 		font-size: 0.9em;
 	}
 	footer > img{
