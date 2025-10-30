@@ -1,0 +1,15 @@
+<main class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Holding a Master of <b>Medical Sciences</b>, I am eager to contribute to global health improvements, combining:<br/></p>
+          <style>
+            .indent {
+              text-indent:20px
+            }
+          </style>
+          <ul class="about">
+            <li>high technical knowledge in <b>biomedicine</b>, biostatistics and science communication acquired thanks to my education and research experience (especially in immunology and oncology)</li>
+            <li>project management, marketing and leadership skills (acquired thanks to my 3-year experience in TEDx events organization with speakers, sponsors and companies)</li>
+            <li>a humanistic personality (developed by having lived abroad, speaking several languages)</li></ul>
+      </section>
+</main>
